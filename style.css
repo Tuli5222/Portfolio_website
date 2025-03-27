@@ -1,0 +1,273 @@
+/*header start*/
+*{
+    margin: 0;
+    top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin-top: 20px;
+    margin-left: 104px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 125px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding: 25px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 14px;  
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: #8490ff !important;; 
+}
+/*header end*/
+
+/*Section1 start*/
+.Section1, .Section2 {
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.text, .image{
+    width: 50%;
+}
+.text{
+    font-family: poppins,sans-serif;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+.image{
+    padding-right: 160px;
+    margin-top: 110px;
+}
+.text h3{
+    font-size: 14px;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.text h1{
+    font-size: 60px;
+    margin: 20px 0;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.text p{
+    width: 90%;
+    
+    font-size: 14px;
+    margin: 0 0 16px;
+    color: #777777;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+}
+.text input{
+    padding: 12px 20px;
+    background:linear-gradient(120deg,#6b60ec 20%,#a166f4);
+    outline: none;
+    color: #ffffff;
+    border: 1px solid transparent;
+    font-size: 14px;
+}
+input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5)  ;
+    transition: all 0.5 ease-in 0.1s;
+    outline: none;
+}
+/*Section1 End*/
+
+/*Section2 start*/
+.img2{
+    margin-left: 100px;
+}
+.text > h2{
+    font-size: 36px;
+}
+/*Section2 End*/
+
+/*Section3 start*/
+.Section3{
+    width: 100%;
+    height: 670px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.firsttxt h1{
+    color: #222222;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1em !important;
+    font-family: Poppins, sans-serif;
+}
+.firsttxt p{
+    width: 500px;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    margin: 0 auto;
+    
+}
+.service{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 50px; 
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser2{
+    padding-top: 30px;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service h3{
+    font-size: 18px;
+    padding: 20px;
+}
+.service h3 a{
+    text-decoration: none;
+    color: black;
+}
+.service p{
+    width: 303px;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.service div img:hover{
+    color:#8490ff;
+}
+/*Section3 End*/
+
+/*Section4 start*/
+.Section4{
+    width: 100%;
+    height: 300px;
+    background:linear-gradient(120deg,#6b60ec 20%,#a166f4);
+}
+
+.Section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative; /*shobkisu majhe anar jonno position relative*/
+    top: 130px;
+    left: 200px;
+
+}
+.Section4 h1, p{
+    text-align: center;
+    color: white;
+}
+Section4 h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+.Section4 p{
+    line-height: 2rem;
+}
+/*Section4 End*/
+/*Section5 start*/
+.Section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.Section5 .text3{
+    text-align: center;
+}
+.Section5 .text3 h1{
+    font-size: 36px;
+    color: #222222;
+    font-weight: 600;
+    
+}
+.Section5 .text3 p{
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300; 
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.Section5 .imgg{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;/*jinish gula proper jayga newar por box beshi hole baki gula niche namay dibe*/
+    margin: 0 auto;
+}
+.Section5 .imgg div{
+    
+    text-align: center;
+}
+
+.imgg h5{
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    padding-top: 20px;
+}
+.imgg p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #727171;
+    line-height: 1.6em;
+    padding-bottom: 20px;
+}
+.Section5 figure{
+    background: linear-gradient(40deg,#8490ff 40%, #62bdfc 100%);
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+
+.Section5 figure:hover img{
+    opacity: .3;
+    transition: all .5s ease-in-out;
+}
+
+/*Section5 End*/
